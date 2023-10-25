@@ -10,12 +10,13 @@ function ToDoSection(props) {
   }, []);
 
   return (
-    <Container>
+    <Container className="pb-5">
+      <h1 className="mt-5">To Do List</h1>
       <Row>
         {props.user.toDosData.map((todo) => {
           return (
             <Fragment key={todo.id}>
-              <Col md={4}>
+              <Col md={4} className="mt-3">
                 <Card
                   style={{
                     width: "100%",

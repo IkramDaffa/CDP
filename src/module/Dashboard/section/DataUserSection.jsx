@@ -5,6 +5,7 @@ import { Table } from "reactstrap";
 function DataUserSection(props) {
   return (
     <Container>
+      <h1>User Data</h1>
       <Table hover responsive striped>
         <thead>
           <tr className="table-primary">
